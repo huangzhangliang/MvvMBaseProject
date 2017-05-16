@@ -1,0 +1,26 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.android.barball_library.view.RatioLayout
+        xmlns:ratioLayout="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/photoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ratioLayout:picRatio="2.4"
+        ratioLayout:relative="width">
+
+        <cn.bingoogolapple.bgabanner.BGABanner
+            xmlns:banner="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bannerPhotoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            banner:banner_pageChangeDuration="1000"
+            banner:banner_pointAutoPlayAble="true"
+            banner:banner_indicatorGravity="bottom|right"
+            banner:banner_pointDrawable="@drawable/banner_point"
+            banner:banner_pointContainerBackground="@color/transparent"
+            banner:banner_transitionEffect="alpha"/>
+
+    </com.android.barball_library.view.RatioLayout>
+
+</layout>

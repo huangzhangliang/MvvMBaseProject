@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTheme">#ff684d</color>
+    <color name="colorThemeDeep">#e75a44</color>
+    <color name="colorGray">#a1a1a1</color>
+    <color name="colorLine">#eaeaea</color>
+    <color name="colorGrayShallow">#f1f1f1</color>
+    <color name="colorGrayBG">#f7f7f7</color>
+    <color name="colorWhiteTransparent">#30ffffff</color>
+    <color name="colorBlack">#464646</color>
+    <color name="dialogBackground">#0b424242</color>
+</resources>

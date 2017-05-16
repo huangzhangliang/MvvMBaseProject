@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progress_gray">#a4a4a4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#e75946</color>
+    <color name="yellow">#f4d227</color>
+    <color name="blue">#4674e7</color>
+    <color name="green">#0ba62c</color>
+</resources>

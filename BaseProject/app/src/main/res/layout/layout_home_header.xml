@@ -1,0 +1,38 @@
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/superContainer"
+        android:orientation="vertical"
+        android:background="@color/colorGrayBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.android.barball_library.view.RatioLayout
+            xmlns:ratioLayout="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/photoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ratioLayout:picRatio="2.4"
+            ratioLayout:relative="width">
+
+            <cn.bingoogolapple.bgabanner.BGABanner
+                xmlns:banner="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/bannerPhotoPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorGrayBG"
+                banner:banner_pageChangeDuration="1000"
+                banner:banner_pointAutoPlayAble="true"
+                banner:banner_indicatorGravity="center_horizontal"
+                banner:banner_pointDrawable="@drawable/banner_point"
+                banner:banner_pointContainerBackground="@color/transparent"
+                banner:banner_transitionEffect="alpha"/>
+        </com.android.barball_library.view.RatioLayout>
+
+        <com.android.project.ui.view.BezierView
+            android:id="@+id/bezierView"
+            android:layout_marginTop="-16dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_16"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,28 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.android.project.ui.view.NoScrollViewPager
+            android:id="@+id/viewPagerContainer"
+            android:layout_above="@+id/mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.android.project.ui.view.NoScrollViewPager>
+
+        <com.android.barball_library.FlyTabLayout.CommonTabLayout
+            android:id="@+id/mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:elevation="@dimen/dp_6"
+            app:tl_iconHeight="@dimen/dp_23"
+            app:tl_iconWidth="@dimen/dp_23"
+            app:tl_textSelectColor="@color/colorTheme"
+            app:tl_textUnselectColor="@color/colorGray"
+            app:tl_textsize="@dimen/sp_12"
+            app:tl_underline_color="#DDDDDD"/>
+
+    </RelativeLayout>
+</layout>
