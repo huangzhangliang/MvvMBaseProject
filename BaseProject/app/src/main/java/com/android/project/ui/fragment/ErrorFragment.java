@@ -15,10 +15,7 @@ import com.android.project.utils.UIUtils;
  */
 public class ErrorFragment extends BaseFragment<FragmentListBinding>{
 
-    @Override
-    public boolean isAutoLoadData() { // 不自动加载数据
-        return false;
-    }
+
 
     @Override
     public void init() {

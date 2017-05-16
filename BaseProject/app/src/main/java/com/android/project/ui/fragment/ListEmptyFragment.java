@@ -51,10 +51,6 @@ public class ListEmptyFragment extends BaseFragment<FragmentHomeBinding>{
     private FragmentHomeBinding mFragmentHomeBinding;
     private LayoutLoadingBinding mLoadingBinding;
 
-    @Override
-    public boolean isAutoLoadData() { // 不自动加载数据
-        return false;
-    }
 
     @Override
     public void init() {

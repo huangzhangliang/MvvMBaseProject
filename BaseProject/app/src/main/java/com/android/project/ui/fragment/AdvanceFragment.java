@@ -17,10 +17,6 @@ import com.android.project.utils.LogUtils;
  */
 public class AdvanceFragment extends BaseFragment<FragmentMeBinding> implements View.OnClickListener{
 
-    @Override
-    public boolean isAutoLoadData() { // 不自动加载数据
-        return false;
-    }
 
     @Override
     public void init() {

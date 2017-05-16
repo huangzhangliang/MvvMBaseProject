@@ -48,10 +48,6 @@ public class ListFragment extends BaseFragment<FragmentHomeBinding>{
     private DataBindRecyclerViewAdapter mAdapter;
     private LayoutHomeHeaderBinding mHomeHeaderBinding;
     private FragmentHomeBinding mFragmentHomeBinding;
-    @Override
-    public boolean isAutoLoadData() { // 不自动加载数据
-        return false;
-    }
 
     @Override
     public void init() {

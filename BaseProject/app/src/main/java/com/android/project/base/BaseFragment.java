@@ -105,7 +105,8 @@ public abstract class BaseFragment<B extends ViewDataBinding> extends Fragment i
     }
 
     /**
-     * 加载initData方法拦截，避免Fragment切换时重复加载数据
+     * 加载initData方法拦截，避免Fragment切换时重复加载数据，
+     * 且Fragment不预加载，须配合isAutoLoadData()
      */
     public void lazyData(){
         if (!mLoadedFlag){
@@ -162,10 +163,10 @@ public abstract class BaseFragment<B extends ViewDataBinding> extends Fragment i
 
     /**
      * 设置是否自动加载数据（自动调用initData方法）
-     * 默认为自动加载
+     * 默认为不自动加载，需要自动加载重写为true
      */
     public boolean isAutoLoadData(){
-        return true;
+        return false;
     }
 
     /**
